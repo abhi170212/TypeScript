@@ -8,7 +8,7 @@ console.log(username);
 
 //FUNCTIONS
 function add(a: number, b = 10) {
-  return a + b;
+  return a + b;                                                                                                                                                                                                                                                                                                                          
 }
 
 // any type -> u cana ssign any value in this
@@ -56,10 +56,11 @@ var userObject: {
 let valuess: {} = ""; // here , {} does not mean object , rather any non null or undefined value
 // agar jab pata na ho ki object me kya kya values ayega to kaise pata karenge ?
 var data: Record<string, number | string>;
-data = {
+data = { 
   entry1: 1,
   entry2: "Abhishek",
 };
+
 
 //ENUM
 enum Role{

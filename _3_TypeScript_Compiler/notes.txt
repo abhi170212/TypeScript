@@ -1,0 +1,12 @@
+// tsc --init
+// target --> ye decide krta hai ki kaun sa version of ts hai 
+
+disabledReferenceProjectLoad --> ye wala decide krta hai ki sare projects ko ek hi memory me rakhna hai ya nhi
+lib ->> array of libraries 
+rootDir
+outDir
+noEmitOnError
+strict
+
+pure code ko tsc se compile krna hia , warna config ke features kaam nhi karenge
+npm install @types/lodash  --save-dev 

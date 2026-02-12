@@ -1,0 +1,2 @@
+var nameOfUser;
+nameOfUser = "Abhishek";
